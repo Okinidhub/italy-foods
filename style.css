@@ -1,0 +1,16 @@
+#about{
+    display: flex;
+}
+.one{
+    width: 20vw;
+    padding: 2%;
+    font-family: sans-serif;
+}
+.two{
+    width: 20vw;
+    padding: 2%;
+}
+.three{
+    width: 20vw;
+    border-radius: 25%, 0, 25%, 0
+}
