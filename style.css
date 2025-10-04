@@ -1,0 +1,14 @@
+#courses img{
+    width: 25vw;
+    height: 200px;
+    padding: 2%;
+
+}
+#courses{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+.courses{
+    
+}
