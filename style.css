@@ -1,3 +1,4 @@
+
 #home {
     background-image: linear-gradient(rgba(57, 54, 54, 0.26),rgba(52, 49, 49, 0.091) ,rgba(44, 42, 42, 0.009)),url("https://images.pexels.com/photos/17082393/pexels-photo-17082393.jpeg");
     height: 80vh;
@@ -8,6 +9,17 @@
     margin-top: 0%;
 }
 
-
-    
+#nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: red;
+    padding: 1%;
+}
+body {
+    background-color: rgb(110, 252, 229);
+}
+.ul {
+    display: flex;
+}
 
