@@ -5,15 +5,6 @@
     padding: 2%;
 
 }
-#courses{
-    font-family: sans-serif;
-    text-align: center;
-    display: flex;
-}
-.courses{
-    
-}
-
 
 #home {
     background-image: linear-gradient(rgba(57, 54, 54, 0.26),rgba(52, 49, 49, 0.091) ,rgba(44, 42, 42, 0.009)),url("https://images.pexels.com/photos/17082393/pexels-photo-17082393.jpeg");
@@ -33,8 +24,57 @@
     padding: 1%;
 }
 body {
-    background-color: rgb(110, 252, 229);
+    background-color:aqua;
 }
 .ul {
     display: flex;
+}
+#testimonials img {
+    width: 20vw;
+    height: 200px;
+    page-break-after: 2%;
+    border-radius: 300px;
+}
+#testimonials {
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+}
+.testimonial {
+    padding: 1%;
+    border: black 1px dashed;
+    margin: 5px;
+}
+footer {
+    background-color: blue;
+    color: #fff;
+    text-align: end;
+    padding: 20px 0;
+    width: 100%;
+    display:flex;
+    text-align: end;
+}
+footer a{
+    color: #ddd;
+    text-decoration: none;
+
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#about {
+    display: flex;
+}
+.one {
+    width: 40vh;
+    padding: 5%;
+    font-family: sans-serif;
+}
+.two {
+    width: 50vw;
+    padding: 2%;
+}
+.two img {
+    width: 40vw;
+    border-radius: 1000%;
 }
