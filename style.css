@@ -5,11 +5,16 @@
     padding: 2%;
 
 }
-.courses{
+#courses{
     font-family: sans-serif;
     text-align: center;
     display: flex;
 }
+.courses{
+    
+}
+
+
 #home {
     background-image: linear-gradient(rgba(57, 54, 54, 0.26),rgba(52, 49, 49, 0.091) ,rgba(44, 42, 42, 0.009)),url("https://images.pexels.com/photos/17082393/pexels-photo-17082393.jpeg");
     height: 80vh;
@@ -33,8 +38,3 @@ body {
 .ul {
     display: flex;
 }
-#contact {
-    text-align: end;
-}
-
-
