@@ -1,22 +1,19 @@
-#about{
+.two img {
+    width: 400px;
+    height: auto;
+    border-radius: 300px;
     display: flex;
-    
 
 }
-.one {
-    width: 50vw;
-    padding: 5%;
-    font-family: sans-serif;
+.one img {
+    width: 400px;
+    height: auto;
+    border-radius: 300%;
+    display: flex;
 }
+#about {
+    /* display: flex;
+    color: blue;
+    text-align: center; */
 
-.two img{
-    width: 50vw;
-    height:50vw ;
-    border-radius: 25%, 0, 25%, 0
-}
-.three img{
-    width: 50vw;
-    height: 50vw;
-      justify-content:space-around;
-align-content: center;
 }
