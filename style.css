@@ -6,6 +6,16 @@
 
 }
 
+#courses{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.courses{
+    width: 300px;
+}
+
 #home {
     background-image: linear-gradient(rgba(57, 54, 54, 0.26),rgba(52, 49, 49, 0.091) ,rgba(44, 42, 42, 0.009)),url("https://images.pexels.com/photos/17082393/pexels-photo-17082393.jpeg");
     height: 80vh;
@@ -57,7 +67,6 @@ footer {
 footer a{
     color: #ddd;
     text-decoration: none;
-
 }
 footer a:hover {
     text-decoration: underline;
@@ -74,7 +83,8 @@ footer a:hover {
     width: 50vw;
     padding: 2%;
 }
-.two img {
-    width: 40vw;
-    border-radius: 1000%;
+
+.header h3{
+    text-align: center;
+    text-transform: capitalize;
 }
